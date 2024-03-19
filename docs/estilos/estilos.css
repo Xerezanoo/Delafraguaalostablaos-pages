@@ -1,0 +1,34 @@
+/* estilos.css */
+
+@font-face {
+    font-family: 'LemonMilk Medium Italic';
+    src: url(../fuentes/lemon_milk/LEMONMILK-MediumItalic.otf);
+}
+
+nav {
+    border-bottom: 2px solid;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    border: 10px double;
+    padding: .3em;
+    font-family: 'LemonMilk Medium Italic';
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
