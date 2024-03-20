@@ -62,10 +62,25 @@ nav ul li {
     font-family: 'LemonMilk Medium Italic';
 }
 
+nav ul li:hover {
+    list-style-type: none;
+    text-align: center;
+    border: 10px double;
+    padding: .3em;
+    font-family: 'LemonMilk Medium Italic';
+    background-color: lightsalmon;
+}
+
 nav ul li a {
     display: block;
     text-decoration: none;
     color: black;
+}
+
+nav ul li a:hover {
+    display: block;
+    text-decoration: none;
+    color: white;
 }
 
 h1 {
