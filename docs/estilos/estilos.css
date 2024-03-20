@@ -1,7 +1,7 @@
 /* estilos.css */
 
-/* Importamos las fuentes que vamos a usar desde un archivo */
 
+/* Importamos las fuentes que vamos a usar desde un archivo */
 @font-face {
     font-family: 'LemonMilk Bold';
     src: url(../fuentes/lemon_milk/LEMONMILK-Bold.otf);
@@ -43,9 +43,7 @@
 }
 
 
-
 /* Estilos de la barra de navegación */
-
 nav {
     border-bottom: 2px solid;
 }
@@ -75,6 +73,7 @@ h1 {
 }
 
 
+/* Estilos de los artículos del blog (tienen todos la misma estructura) */
 article h1.titulo {
     font-family: 'LemonMilk Bold';
 }
@@ -94,3 +93,5 @@ strong {
 article {
     border-bottom: 2px solid;
 }
+
+/* Estilos del apartado de la historia del flamenco */
