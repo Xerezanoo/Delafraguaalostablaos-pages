@@ -1,9 +1,50 @@
 /* estilos.css */
 
+/* Importamos las fuentes que vamos a usar desde un archivo */
+
+@font-face {
+    font-family: 'LemonMilk Bold';
+    src: url(../fuentes/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilk Bold Italic';
+    src: url(../fuentes/lemon_milk/LEMONMILK-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilk Medium';
+    src: url(../fuentes/lemon_milk/LEMONMILK-Medium.otf);
+}
+
 @font-face {
     font-family: 'LemonMilk Medium Italic';
     src: url(../fuentes/lemon_milk/LEMONMILK-MediumItalic.otf);
 }
+
+@font-face {
+    font-family: 'LemonMilk Regular';
+    src: url(../fuentes/lemon_milk/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilk Regular Italic';
+    src: url(../fuentes/lemon_milk/LEMONMILK-RegularItalic.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilk Light';
+    src: url(../fuentes/lemon_milk/LEMONMILK-Light.otf);
+}
+
+@font-face {
+    font-family: 'LemonMilk Light Italic';
+    src: url(../fuentes/lemon_milk/LEMONMILK-LightItalic.otf);
+}
+
+
+
+/* Estilos de la barra de navegación */
 
 nav {
     border-bottom: 2px solid;
@@ -31,4 +72,25 @@ nav ul li a {
 
 h1 {
     text-align: center;
+}
+
+
+article h1.titulo {
+    font-family: 'LemonMilk Bold';
+}
+
+section.cuerpo p {
+    font-family: 'LemonMilk Regular';
+}
+
+section.despedida p {
+    font-family: 'LemonMilk Bold Italic';
+}
+
+strong {
+    color: darksalmon;
+}
+
+article {
+    border-bottom: 2px solid;
 }
