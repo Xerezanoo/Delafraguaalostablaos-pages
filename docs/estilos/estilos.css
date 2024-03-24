@@ -118,4 +118,35 @@ article {
 }
 
 
-/* Estilos del apartado de la historia del flamenco */
+/* Estilos de la historia del flamenco */
+article.historiadelflamenco h2 {
+    text-align: center;
+}
+
+
+/* Estilos de la galería de imágenes */
+ul.galeria li {
+    list-style-type: none;
+}
+
+ul.galeria li img {
+    margin: 1.5em;
+}
+
+ul.galeria li.impar img {
+    float: left;
+}
+
+ul.galeria li.par img {
+    float: right;
+}
+
+article.galeriadeimagenes {
+    border-bottom: none;
+}
+
+
+/* Estilos de sobre nosotros */
+article.sobrenosotros {
+    
+}
