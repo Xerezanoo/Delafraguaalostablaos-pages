@@ -97,6 +97,14 @@ section.cuerpo p {
     font-family: 'LemonMilk Regular';
 }
 
+article:nth-child(2n+1) section.cuerpo img {
+    float: left;
+}
+
+article:nth-child(2n+2) section.cuerpo img {
+    float: right;
+}
+
 section.despedida p {
     font-family: 'LemonMilk Bold Italic';
 }
@@ -108,5 +116,6 @@ strong {
 article {
     border-bottom: 2px solid;
 }
+
 
 /* Estilos del apartado de la historia del flamenco */
