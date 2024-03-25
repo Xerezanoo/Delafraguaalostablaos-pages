@@ -144,3 +144,16 @@ ul.galeria li.par img {
 article.galeriadeimagenes {
     border-bottom: none;
 }
+
+
+/* Estilos de sobre nosotros */
+article.sobrenosotros section.despedida {
+    text-align: center;
+}
+
+/* Estilos de la cita del inicio */
+blockquote {
+    font-family: 'LemonMilk Bold';
+    text-align: center;
+    margin: 3em;
+}
